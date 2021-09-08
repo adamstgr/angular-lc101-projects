@@ -6,9 +6,16 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./buttons.component.css']
 })
 export class ButtonsComponent implements OnInit {
-   buttonHeading: string = "Buttons"
-   inactive: boolean = false;
+   
+   buttonGold: string = "Gold"
+   inactive1: boolean = false;
 
+   buttonSilver: string = "Silver"
+   inactive2: boolean = false;
+
+   buttonCopper: string = "Copper"
+   inactive3: boolean = false;
+   
    constructor() { }
 
    ngOnInit() { }
